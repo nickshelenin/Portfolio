@@ -12,13 +12,13 @@ ul {
   width: 100%;
   top: 0;
   background: #1b1b1f;
-  height: 5em;
+  height: 80px;
   display: flex;
   align-items: center;
 }
 
 .nav-container {
-  height: 5em;
+  height: 80px;
   z-index: 999;
   width: 100%;
   margin: auto;
@@ -39,21 +39,16 @@ ul {
 
 .nav-list li a {
   color: #fff;
-  /* font-weight: bold; */
   font-size: 1.1rem;
 }
 
 .nav-list li a:hover {
-  color: #0be2c2;
+  color: #00EFF6;
   transition: 300ms;
 }
 
-.logo a {
-  display: flex;
-  align-items: center;
-  font-size: 2em;
-  /* font-weight: semi-bold; */
-  color: #fff;
+.logo img {
+  height: 85px;
 }
 
 @media screen and (max-width: 760px) {
@@ -61,7 +56,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
   }
 
   .nav-ham {
@@ -112,13 +107,12 @@ ul {
 
   .nav-list.active {
     display: flex;
-    
   }
 }
 
 @media screen and (min-width: 768px) {
   .nav-container {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
@@ -128,18 +122,17 @@ ul {
 }
 
 @media screen and (min-width: 1024px) {
- .nav-list li {
-   margin-right: 6em;
- }
+  .nav-list li {
+    margin-right: 6em;
+  }
 
- .nav-list li a {
-   font-size: 1.3rem;
- }
+  .nav-list li a {
+    font-size: 1.3rem;
+  }
 }
 
 @keyframes nav-load {
   0% {
     transform: translateX(-100%);
-    
   }
 }
