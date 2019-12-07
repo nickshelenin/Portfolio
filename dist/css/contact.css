@@ -37,7 +37,7 @@ a {
 }
 
 .contact-text-container h1 {
-  color: #00e59b;
+  color: #00EFF6;
 }
 
 .contact-text-container p {
@@ -92,7 +92,7 @@ a {
 }
 
 .main-form input:focus {
-  border-bottom: 1px solid #00e59b;
+  border-bottom: 1px solid #00EFF6;
 }
 
 .main-form textarea {
@@ -123,14 +123,14 @@ a {
 }
 
 .main-form textarea:focus {
-  border-bottom: 2px solid #00e59b;
+  border-bottom: 2px solid #00EFF6;
 }
 
 .main-form #send-button {
-  color: #00e59b;
+  color: #00EFF6;
   background: none;
   outline: none;
-  border: 1px #00e59b solid;
+  border: 1px #00EFF6 solid;
   border-radius: 5px;
   padding: 0.5em 1.5em 0.5em 1.5em;
   cursor: pointer;
@@ -143,10 +143,10 @@ a {
 }
 
 .main-form #send-button:hover {
-  border: 2px solid #00e59b;
+  border: 2px solid #00EFF6;
   -webkit-transition: 200ms;
   transition: 200ms;
-  background: #00e59b;
+  background: #00EFF6;
   color: #000;
 }
 
