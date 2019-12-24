@@ -5,6 +5,7 @@
 :root {
   --main-color: #e31b6d;
   --second-color: #00eff6;
+  /* --second-color: #08FDD8; */
 }
 
 * {
@@ -16,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   background: #202024;
-  font-family: source sans pro, sans-serif;
+  /* font-family: 'source sans pro', sans-serif; */
   color: #fff;
 }
 
